@@ -32,6 +32,10 @@
 void HELP();					// Help function for proper usage
 void LEGENDRE(matris &P,matris &P1,int N,double x);// Fully normalized Legendre function
 int main(int argc, char *argv[]){
+
+	int i=0;
+	for (i=0;i<100;i++)
+		println("test1");
 	FILE 	 *model=NULL;			// GGM file
 	FILE   *anomaly=NULL;			// anomaly data file
 	FILE *elevation=NULL;			// elevation data file
