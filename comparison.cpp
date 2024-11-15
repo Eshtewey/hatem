@@ -36,6 +36,9 @@
 void HELP();
 int main(int argc, char *argv[])
 {/* Definitions ********************************************************************************************/
+	int i=0;
+	for (i=0;i<100;i++)
+		println("test2");
     FILE *stream1=NULL;					// first file pointer
     FILE *stream2=NULL;					// second file pointer 
     int 	   i=0;					// index
